@@ -17,6 +17,12 @@ public class Latihan3 : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Merupakan fungsi penjumlahan dari 2 input angka
+    /// </summary>
+    /// <param name="a">Masukkan Angka Integer</param>
+    /// <param name="b">Masukkan Angka Integer</param>
+
     int Jumlah(int a, int b)
     {
         return a + b;
