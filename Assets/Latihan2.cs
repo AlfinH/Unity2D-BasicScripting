@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Latihan2 : MonoBehaviour
 {
-    int nilaiA = 5;
-    int nilaiB = 9;
+    public int nilaiA;
+    public int nilaiB;
 
     // Use this for initialization
     void Start()
