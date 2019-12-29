@@ -4,17 +4,11 @@ using UnityEngine;
 
 public class Latihan6 : MonoBehaviour
 {
-    int[] intArray; //Deklarasi Array
-                    // Use this for initialization
+    public int[] intArray; //Deklarasi Array
 
+    // Use this for initialization
     void Start()
     {
-        intArray = new int[4]; //Inisialisasi Array
-        intArray[0] = 10; //Memasukkan nilai Array
-        intArray[1] = 20;
-        intArray[2] = 30;
-        intArray[3] = 40;
-
         Debug.Log("Menampilkan Seluruh Array");
         foreach (int a in intArray)
         {
